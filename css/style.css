@@ -68,3 +68,16 @@ footer ul li {
     width: 300px;
     padding-left: 80px;
 }
+
+.WorkImg1 {
+    width: 300px;
+}
+
+.flexContainer {
+    display: grid;
+    
+}
+
+.gridColumn {
+    width: 33%;
+}
