@@ -71,6 +71,17 @@ footer ul li {
 
 .WorkImg1 {
     width: 300px;
+    height: 350px;
+}
+
+.WorkImg2 {
+    width: 300px;
+    height: 350px;
+}
+
+.WorkImg3 {
+    width: 300px;
+    height: 350px;
 }
 
 .flexContainer {
@@ -80,4 +91,8 @@ footer ul li {
 
 .gridColumn {
     width: 33%;
+}
+
+.gridColumn2 {
+    width: 30%
 }
