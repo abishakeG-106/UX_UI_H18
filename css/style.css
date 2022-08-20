@@ -28,6 +28,7 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
+
 }
 footer {
     background-color: #373738;
@@ -105,14 +106,21 @@ border-color: blue;
 }
 
 .CaseImg1 {
-    
-
+    width: 500px;
+    height: 300px;
 }
 
 .CaseImg2 {
-
+    width: 500px;
+    height: 300px;
 }
 
 .CaseImg3 {
-    
+    width: 500px;
+    height: 300px;
+}
+
+.heading {
+    text-align: left;
+
 }
