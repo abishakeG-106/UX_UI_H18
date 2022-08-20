@@ -86,6 +86,8 @@ footer ul li {
 
 .flexContainer {
     display: grid;
+    width: 100%;
+    flex-direction: row;
     
 }
 
@@ -95,4 +97,9 @@ footer ul li {
 
 .gridColumn2 {
     width: 30%
+}
+
+.gridColumn {
+border-width: 2px;
+border-color: blue;
 }
