@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -68,6 +72,17 @@ footer ul li {
 .Image2 {
     width: 300px;
     padding-left: 80px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas: 
+    "case1 content1"
+    "case2 content2"
+    "case3 content3"
+
 }
 
 .WorkImg1 {
