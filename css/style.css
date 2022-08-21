@@ -2,6 +2,12 @@ body {
     margin: 0;
 }
 
+header {
+    background-color:beige;
+    
+}
+
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -15,12 +21,13 @@ nav {
     width: 73%;
     padding: 1%;
 }
+
 ul {
     width: 24%;
     margin-left: auto;
     font-family: sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: 17px;
     line-height: 25px;
     margin-right: 1%;
@@ -28,6 +35,16 @@ ul {
 .heroimg {
     height: 100px;
     padding: 25px;
+}
+
+.Image1 {
+    width: 50px;
+    height: 60px;
+}
+
+.Image2 {
+    width: 300px;
+    padding-left: 80px;
 }
 
 button {
@@ -87,15 +104,6 @@ footer ul li {
 
 }
 
-.Image1 {
-    width: 50px;
-}
-
-.Image2 {
-    width: 300px;
-    padding-left: 80px;
-}
-
 .workGrid {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -153,3 +161,10 @@ footer ul li {
     height: 300px;
 }
 
+@media only screen and (max-width: 600px) {
+
+    .flexContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
