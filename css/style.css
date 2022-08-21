@@ -33,6 +33,8 @@ ul {
 button {
     padding: 6px;
     background-color: #FFFBE7;
+    font-family: sans-serif;
+    cursor: pointer;
 }
 .content {
     width: 500px;
@@ -41,8 +43,7 @@ button {
 }
 footer {
     background-color: #373738;
-    font-family: sans-serif;
-    padding: 0;
+    
 }
 footer p {
     width: 65%;
@@ -116,15 +117,11 @@ footer ul li {
 
 .gridColumn {
     width: 33%;
+    border-width: 2px;
 }
 
 .gridColumn2 {
     width: 30%
-}
-
-.gridColumn {
-border-width: 2px;
-border-color: blue;
 }
 
 .CaseImg1 {
