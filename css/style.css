@@ -73,6 +73,20 @@ footer ul li {
     line-height: 25px;
     margin-right: 3%;
 }
+
+/* My Work Section*/
+
+.SelectedProjects {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #ebebeb;
+}
+
+.heading {
+    text-align: left;
+
+}
+
 .Image1 {
     width: 50px;
 }
@@ -139,7 +153,3 @@ footer ul li {
     height: 300px;
 }
 
-.heading {
-    text-align: left;
-
-}
